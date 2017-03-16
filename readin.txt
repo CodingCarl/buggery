@@ -1,0 +1,47 @@
+ParadiseSpecies
+Humans
+Tajaran
+Unathi
+Skrell
+Slime People
+Vox
+Grey
+Diona
+Machine People
+Kidan
+Shadow people
+Plasmamen
+Vulpkanin
+Drask
+Possible Candidates
+Wryn
+Nucleation
+EOL
+Your regular humans. Quite underwhelming.
+Cat-like aliens, hired by NanoTrasen. Try not to actually call them cat people.\nTajara can speak a unique language - Siik’tajr. Use this in game by typing say :j\nTajara have claws, and unarmed damage done by them is applied as sharp.\nTajara have improved vision in low-light conditions.\nTajara are less vulnerable to cold, but more vulnerable to heat.\nTajara are able to devour mice and other small animals with an aggressive grab.
+Hired by Nanotrasen, these cold-blooded employees have various reptilian qualities. However, the other companies have been heard of recruiting them as well. 
+A race of gelatinous beings, who dedicate themselves to exploring the mind. Very technologically advanced. 
+An evolved race of xenobiological slimes. 
+Birdlike beings. Vox who decided that peaceful station life is for them. 
+Your stereotypical gray alien. Little is known about them 
+Giant, lumbering tree-like beings. They are born through other species' blood. 
+Advanced robots who assist the crew. 
+Insect beings with a tough, chitinous skin. 
+Results of human experimentation with slimes. 
+A species made of plasma who require special suits when working in non-plasma filled environments.
+A more newly encountered species with characteristics similar to canines or foxes.
+A race of cryonic, ice-like beings. Do not actually melt.
+The following are not accessible by players, but may be created by admins during events
+An insect-like race who can speak to one another through some sort of hivemind
+Former crew who have become disfigured from prolonged exposure to super matter.
+
+Hate shows that you dislike something a ton.
+Everything includes all but nothing.
+not this
+testing the single quotation mark's
+23495
+2345678
+234876
+			case "ParadiseJobs and RolesCaptain":
+                myjavatextview.setText(R.string.ParadiseJobsCaptain);
+                break; 
