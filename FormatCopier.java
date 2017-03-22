@@ -25,9 +25,11 @@ public class FormatCopier {
     int x = 0,
         y = 0,
         z = 0,
-        q = 0;
+        q = 0,
+        list_size = 0;
     File file = new File("readin.txt");
-    String[] lines = new String[100];
+    String[] lines = new String[3000];
+    String[] description = new String[1000];
     String wiper = "FUCK";
     try {
         FileReader reader = new FileReader(file);
