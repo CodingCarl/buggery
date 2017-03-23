@@ -38,7 +38,7 @@ public class FormatCopier {
         //writer.println("The first line");
         //writer.println("The second line");
         
-        
+        // tries to open files and write the resources list.
         String s;
         while((s = buffReader.readLine()) != null){
         //while(x<10){s = buffReader.readLine();
@@ -55,9 +55,26 @@ public class FormatCopier {
         y = x;
         
         //Time to sanitize the input descriptions.
-        
+        list_size = y;
         
         //Prints out the description for each entry.
+        z = y + 1;
+        for(x=1; x < list_size; x++)
+        {
+            description[x] = "";
+            while(!lines[z].equals("EOS")) 
+                {
+                description[x] = description[x] 
+                    + lines[z].replaceAll("'","\'")
+                    + "\n";
+                z++;
+                }
+            z++;
+        writer.println("\t<string name=\"" + lines[0] + lines[x].replaceAll(" ", "_") + "\"");
+        writer.println("\t\t>" + description[x] + "</string>");
+        }
+        //messy code, commenting it out.
+        /*
         for(x=1;x<y;x++)
         {
             z = x + y;
@@ -76,6 +93,8 @@ public class FormatCopier {
             writer.println("\t<string name=\"" + lines[0] + lines[x].replaceAll(" ", "_") + "\"");
             writer.println("\t\t>" + lines[z] + "</string>");
         }
+        */
+        
         writer.println();
         writer.println("</resources>");
         //TODO Change whitespace in setText to Underscore.
